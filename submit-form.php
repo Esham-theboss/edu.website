@@ -3,10 +3,10 @@ ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
 error_reporting(E_ALL);
 
-$servername = "sql110.infinityfree.com";
-$username = "if0_37112121";
-$password = "eByjqQQJnzxHF";
-$dbname = "if0_37112121_db_regform";
+$servername = " sql10.freesqldatabase.com";
+$username = "sql10726157";
+$password = "U46WKUWAuv";
+$dbname = " sql10726157";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
