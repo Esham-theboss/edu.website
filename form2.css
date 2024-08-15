@@ -1,0 +1,315 @@
+body{
+    background-image: url(pencils-1486278_640.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: fit-content;
+    width: fit-content;
+    
+    background-size: cover;
+    filter: opacity(10px);
+}
+
+.nav{
+    height: 35px;
+    width: 450px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 460px;
+    margin-top: -9.9px;
+    position: fixed;
+    text-decoration: none;
+    z-index: 1000;
+    
+}
+.center-item{
+    display: flex;
+    gap: 70px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 2px;
+    font-family: "Oswald";
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    color: white;
+}    
+
+
+
+.home{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+
+}
+
+.form{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+    opacity: 0.3;
+
+}
+
+.about{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+
+.support{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+
+.home:hover{
+    opacity: 0.3;
+}
+.form:hover{
+    opacity: 0.3;
+
+}
+.about:hover{
+    opacity: 0.3;
+
+}
+
+.support:hover{
+    opacity: 0.3;
+
+}
+
+/* This is the starting of the dropdown menu*/
+
+.fa-bars{
+    color: white;
+    font-size: 22px;
+    position: fixed;
+    right: 0;
+    margin-right: 38px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.fa-bars:hover{
+    opacity: 0.3;
+}
+
+.hidden {
+    display: none;
+    top:100%;
+
+} 
+.container{
+  display:block;  
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 39px;
+  margin-top: 20px;      
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;    
+}
+button:focus {
+    outline: none;
+}
+
+#items p {
+    margin: 10px 0;  
+}
+
+.fa-facebook{
+    color:dodgerblue;
+}
+
+.fa-facebook:hover{
+    opacity: 0.4;
+}
+
+
+
+/*The start of the body style*/
+
+.head{
+    color: white;
+    font-family: oswald;
+    position: absolute;
+    margin-left: 435px;
+    margin-top: 70px;
+    font-size: 60px;
+    width: 500px;
+    text-align: center;
+    cursor: default;
+}
+
+
+
+/*download*/
+.bod{
+
+    height: 200px;
+    width: 400px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 125px;
+    margin-top: 300px;
+    position: absolute;
+    text-align: center;
+    }
+.bod1{
+    color: white;
+    font-family: oswald;
+    font-size: 60px;
+    margin-top: 10px;
+    cursor: default;
+}
+.fa-download{
+    color: white;
+    position: absolute;
+    margin-top: 110px;
+    font-size: 60px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.fa-download:hover{
+    opacity: 0.3;
+}
+
+
+/*upload box*/
+
+.bod0{
+
+    height: 200px;
+    width: 400px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-top: 300px;
+    position: absolute;
+    text-align: center;
+    }
+.bod10{
+    color: white;
+    font-family: oswald;
+    font-size: 60px;
+    margin-top: 10px;
+    cursor: default;
+}
+.fa-upload{
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 60px;
+    margin-left: -120px;
+    cursor: pointer;
+    z-index: 400;
+}
+
+.fa-upload:hover{
+    opacity: 0.3;
+}
+
+.file{
+    font-family: abel;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 165px;
+    font-size: 15px;
+    cursor: default;
+    display: none;
+}
+
+
+
+.instru{
+    color: white;
+    font-family: abel;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 20px;
+    cursor: default;
+}
+
+.ind{
+
+    height: 20px;
+    width: 550px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 380px;
+    margin-top: 570px;
+    position: absolute;
+    text-align: center;
+    }
+
+
+.law{
+    color: white;
+    font-family: assistant;
+    position: absolute;
+    bottom: 0;
+    margin-left: 450px;
+    opacity: 0.4;
+    cursor: default;
+    position: fixed;
+}
+.uploadbut{
+    position: absolute;
+    margin-top: 40px;
+    display: none;
+}
+.yes{
+    font-family: abel;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 125px;
+    font-size: 15px;
+    cursor: default;
+    
+}
+.fa-paper-plane{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.fa-paper-plane:hover{
+    opacity: 0.3;
+}
+

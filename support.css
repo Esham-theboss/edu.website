@@ -1,0 +1,341 @@
+body{
+    background-image: url(papers.co-vd54-abstract-black-geometric-line-pattern-36-3840x2400-4k-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: fit-content;
+    width: fit-content;
+    
+    background-size: cover;
+    filter: opacity(10px);
+}
+
+.nav{
+    height: 35px;
+    width: 450px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 460px;
+    margin-top: -9.9px;
+    position: fixed;
+    text-decoration: none;
+    
+}
+.center-item{
+    display: flex;
+    gap: 70px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 2px;
+    font-family: "Oswald";
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    color: white;
+}    
+
+
+
+.home{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+
+}
+
+.form{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+
+}
+
+.about{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+
+.support{
+    opacity: 0.3;
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+.home:hover{
+    opacity: 0.3;
+}
+.form:hover{
+    opacity: 0.3;
+
+}
+.about:hover{
+    opacity: 0.3;
+
+}
+
+.support:hover{
+    opacity: 0.3;
+
+}
+
+/* This is the starting of the dropdown menu*/
+
+.fa-bars{
+    color: white;
+    font-size: 22px;
+    position: fixed;
+    right: 0;
+    margin-right: 38px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.fa-bars:hover{
+    opacity: 0.3;
+}
+
+.hidden {
+    display: none;
+    top:100%;
+
+} 
+.container{
+  display:block;  
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 39px;
+  margin-top: 20px;      
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;    
+}
+button:focus {
+    outline: none;
+}
+
+#items p {
+    margin: 10px 0;  
+}
+
+.fa-facebook{
+    color:dodgerblue;
+}
+.fa-twitter{
+    color: aqua;
+
+}
+
+.fa-twitter:hover{
+    opacity: 0.4;
+}
+.fa-facebook:hover{
+    opacity: 0.4;
+}
+
+
+
+/*The start of the body style*/
+
+.text1{
+    font-family: oswald;
+    color: white;
+    font-size: 50px;
+    padding: 0;
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 80px;
+    cursor: default;
+}
+
+.text2{
+    font-family: abel;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 200px;
+    cursor: default;
+    text-align: center;
+    width: 1000px;
+}
+
+/*box number 1*/
+.email{
+    height: 200px;
+    width: 300px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-top: 290px;
+    position: absolute;
+
+}
+
+.fa-envelope{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 125px;
+    cursor: default;
+}
+.email1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 105px;
+    font-family: oswald;
+    font-size: 30px;
+    cursor: default;
+    color: white;
+    
+}
+.email2{
+    position: absolute;
+    font-family: abel;
+    margin-top: 100px;
+    margin-left: 52px;
+    cursor: default;
+    color: white;
+}
+.email3{
+    position: absolute;
+    margin-top: 135px;
+    font-family: abel;
+    margin-left: 80px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/*box number2*/
+.location{
+    height: 200px;
+    width: 400px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 465px;
+    margin-top: 290px;
+    position: absolute;
+    text-align: center;
+}
+.fa-location-dot{
+    color: white;
+    position: absolute;
+    cursor: default;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.location1{
+    font-family: oswald;
+    font-size: 30px;
+    color: white;
+    cursor: default;
+    margin-top: 50px;
+}
+
+.location2{
+    margin-top: -20px;
+    font-family: abel;
+    cursor: default;
+    color: white;
+    
+}
+
+.location3{
+    color: white;
+    font-family: abel;
+    cursor: default;
+    
+    
+}
+
+/*box number 3*/
+.call{
+    height: 200px;
+    width: 300px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 980px;
+    margin-top: 290px;
+    position: absolute;
+    text-align: center;
+
+}
+
+.fa-phone{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    cursor: default;
+}
+.call1{
+    color: white;
+    font-family: oswald;
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: default;
+    
+}
+.call2{
+    color: white;
+    font-family: abel;
+    width: 200px;
+    margin-left: 54px;
+    margin-top: -25px;
+    cursor: default;
+    
+}
+.call3{
+    color: white;
+    font-family: oswald;
+    margin-top: -5px;
+    cursor: default;
+}
+
+
+
+
+
+
+.law{
+    color: white;
+    font-family: assistant;
+    position: absolute;
+    bottom: 0;
+    margin-left: 450px;
+    cursor: default;
+    opacity: 0.4;
+}

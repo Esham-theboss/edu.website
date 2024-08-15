@@ -1,0 +1,201 @@
+body{
+    background-image: url(08fa0275674fee050c47e3b1abd86b6b.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: fit-content;
+    width: fit-content;
+    
+    background-size: cover;
+    filter: opacity(10px);
+}
+
+.nav{
+    height: 35px;
+    width: 450px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 460px;
+    margin-top: -9.9px;
+    position: fixed;
+    text-decoration: none;
+    
+}
+.center-item{
+    display: flex;
+    gap: 70px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 2px;
+    font-family: "Oswald";
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    color: white;
+}    
+
+
+
+.home{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+
+}
+
+.form{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+
+}
+
+.about{
+    opacity: 0.3;
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+
+.support{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+.home:hover{
+    opacity: 0.3;
+}
+.form:hover{
+    opacity: 0.3;
+
+}
+.about:hover{
+    opacity: 0.3;
+
+}
+
+.support:hover{
+    opacity: 0.3;
+
+}
+
+/* This is the starting of the dropdown menu*/
+
+.fa-bars{
+    color: white;
+    font-size: 22px;
+    position: fixed;
+    right: 0;
+    margin-right: 38px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.fa-bars:hover{
+    opacity: 0.3;
+}
+
+.hidden {
+    display: none;
+    top:100%;
+
+} 
+.container{
+  display:block;  
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 39px;
+  margin-top: 20px;      
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;    
+}
+button:focus {
+    outline: none;
+}
+
+#items p {
+    margin: 10px 0;  
+}
+
+.fa-facebook{
+    color:dodgerblue;
+}
+.fa-twitter{
+    color: aqua;
+
+}
+
+.fa-twitter:hover{
+    opacity: 0.4;
+}
+.fa-facebook:hover{
+    opacity: 0.4;
+}
+
+
+
+/*The start of the body style*/
+.bod1{
+    color: white;
+    font-family: oswald;
+    font-size:50px ;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 40px;
+    cursor: default;
+}
+
+.bod2{
+    position: absolute;
+    color: white;
+    font-family: abel;
+    margin-top: 140px;
+    width: 800px;
+    text-align: center;
+    margin-left: 50px;
+    cursor: default;
+}
+
+
+.law{
+    color: white;
+    font-family: assistant;
+    position: absolute;
+    bottom: 0;
+    margin-left: 450px;
+    cursor: default;
+    opacity: 0.4;
+}
+.box{
+        height: 340px;
+        width: 900px;
+        color: black;
+        display: block;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(10px);
+        color: #fff;
+        border-radius: 15px;
+        margin-left: 230px;
+        margin-top: 140px;
+        position: absolute;
+        text-decoration: none;
+        
+    
+}

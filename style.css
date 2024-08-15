@@ -1,0 +1,252 @@
+body{
+    background-image: url(pencils-1486278_640.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: fit-content;
+    width: fit-content;
+    
+    background-size: cover;
+    filter: opacity(10px);
+}
+
+.nav{
+    height: 35px;
+    width: 450px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 460px;
+    margin-top: -9.9px;
+    position: fixed;
+    text-decoration: none;
+    
+}
+.center-item{
+    display: flex;
+    gap: 70px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 2px;
+    font-family: "Oswald";
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    color: white;
+}    
+
+
+
+.home{
+    opacity: 0.3;
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+
+}
+
+.form{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+
+}
+
+.about{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+
+.support{
+    text-decoration: none;
+    font-family: "Oswald";
+    cursor: pointer;
+    color: white;
+}
+
+.form:hover{
+    opacity: 0.3;
+
+}
+.about:hover{
+    opacity: 0.3;
+
+}
+
+.support:hover{
+    opacity: 0.3;
+
+}
+
+/* This is the starting of the dropdown menu*/
+
+.fa-bars{
+    color: white;
+    font-size: 22px;
+    position: fixed;
+    right: 0;
+    margin-right: 38px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.fa-bars:hover{
+    opacity: 0.3;
+}
+
+.hidden {
+    display: none;
+    top:100%;
+
+} 
+.container{
+  display:block;  
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 39px;
+  margin-top: 20px;      
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;    
+}
+button:focus {
+    outline: none;
+}
+
+#items p {
+    margin: 10px 0;  
+}
+
+.fa-facebook{
+    color:dodgerblue;
+}
+
+.fa-facebook:hover{
+    opacity: 0.4;
+}
+
+
+
+/*The start of the body style*/
+.head{
+    font-family: kanit;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    cursor: default;
+    
+
+}
+.head2{
+    font-family: oswald;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 100px;
+    cursor: default;
+}
+
+.head3{
+    font-family: abel;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+    display: block;
+    width: 400px;
+    cursor: default;
+}
+
+.img1{
+    height: 150px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 110px;
+    
+}
+.img2{
+    height: 140px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 220px;
+}
+.img3{
+    height: 130px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 320px;
+}
+
+.but1{
+    height: 28px;
+    width: 120px;
+    color: black;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border-radius: 15px;
+    left:0;
+    margin-left: 107px;
+    margin-top: 370px;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.but2{
+    color: white;
+    font-family: oswald;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: -28px;
+    position: absolute;
+    
+}
+
+.but1:hover{
+    opacity: 0.3;
+
+}
+.fa-arrow-right{
+    color: white;
+    margin-top: 7px;
+    margin-left: 24px;
+    position: absolute;
+    text-decoration: none;
+}
+
+
+
+
+.law{
+    color: white;
+    font-family: assistant;
+    position: absolute;
+    bottom: 0;
+    margin-left: 450px;
+    opacity: 0.4;
+    cursor: default;
+    position: fixed;
+}
